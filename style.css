@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+}
+
+.texto{
+    color: white;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.giro{
+    transform: rotate(360deg);
+}
+
+.imagem{
+    background-image: url("https://img.freepik.com/fotos-gratis/grama-verde-perfeita_1122-632.jpg?w=1380&t=st=1691609904~exp=1691610504~hmac=bdd8855eb1579b2511fc903bb643e3178bbd027c7a3881b98742cfcfcd499795");
+    background-position: center;
+}
+
+.zoom{
+    scale: 1.5;
+}
+
+.img2{
+    background-image: url('https://scontent-gru2-2.xx.fbcdn.net/v/t1.6435-9/29262037_2013035398945308_4536466417926537216_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=GbDPgROGRloAX8dHJz4&_nc_ht=scontent-gru2-2.xx&oh=00_AfC30CfjZPzbO8QNDuR-0okCSI9VuuDXnQvhKHzMZanBmQ&oe=64FB4B5E');
+    background-size: cover;
+    background-position: center;
+}
+
+.mover{
+    order: -1;
+}
+
+.sumir{
+    opacity: 0;
+}
